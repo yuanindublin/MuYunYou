@@ -93,7 +93,7 @@
 /*鼠标触碰隐藏菜单变颜色*/
 .site-head .topbar .shortcut-links  > ul > li.have-menu .menu-list a:hover{
     color: orange;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 /*鼠标碰到have-menu，就让have-menu出现*/
@@ -163,24 +163,35 @@
 
 .site-head .main-nav ul li .menu dl dd a:hover{
     color: orange;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 .site-head .main-nav .menu dl dd a {
     color: #1C1F21;
     font-size: 12px;
     line-height: 20px;
 }
+.site-head .main-nav dl{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
 .site-head .main-nav .jjzyxmenu{
-    width: 150px;
+    /* width: 150px; */
+    width: 170px;
 }
 .site-head .main-nav .gtymenu{
-    width: 90px;
+    /* width: 90px; */
+    width: 110px;
 }
 .site-head .main-nav .ddwlmenu{
-    width: 190px;
+    /* width: 190px; */
+    width: 210px;
 }
 .site-head .main-nav .sdlymenu{
-    width: 160px;
+    /* width: 160px; */
+    width: 180px;
 }
 /*页面顶部主要内容*/
 .site-head .header-con{
