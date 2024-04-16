@@ -1,0 +1,51 @@
+/*公共类*/
+
+
+/*定义字体*/
+@font-face {
+    font-family: "PIngFangSCRegular";
+    src: url('../fonts/PingFangSCRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.woff2?t=1648876350002') format('woff2'),
+         url('../fonts/iconfont.woff?t=1648876350002') format('woff'),
+         url('../fonts/iconfont.ttf?t=1648876350002') format('truetype');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    font-family: "PIngFangSCRegular";
+}
+/*清除浮动*/
+.clearfix{
+    overflow: hidden;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+/*文字居中*/
+.tac{
+    text-align: center;
+}
+/*居中  版心*/
+.center-wrap {
+    width: 1152px;
+    margin: 0 auto;
+}
+/*转块*/
+.db{
+    display: block;
+}
+/*装行内化*/
+.dib{
+    display: inline-block;
+}
